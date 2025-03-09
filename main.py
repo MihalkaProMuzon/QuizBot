@@ -110,8 +110,7 @@ async def show_stats(message):
         user_link = f"tg://user?id={user_id}"
         
         total_stats += f'''
-        [{first_name}]({user_link}) : {game_time} секунд : {correct_answers} правильных : {wrong_answers} неправильных
-        '''
+[{first_name}]({user_link}) : {game_time} секунд : {correct_answers} правильных : {wrong_answers} неправильных'''
         
     await message.answer(total_stats, parse_mode="Markdown")
 
