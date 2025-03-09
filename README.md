@@ -1,2 +1,3 @@
 # QuizBot
-Телеграмм Бот ; квиз игра
+Source code for telegramm bot.
+Quiz game with stats
